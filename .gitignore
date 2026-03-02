@@ -1,0 +1,31 @@
+# Checkpoints and logs
+*logs*/
+*checkpoints*/
+*.pth
+*.pt
+
+# Outputs
+*.png
+*.gif
+*.pdf
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE / tools
+.idea/
+.mypy_cache/
+.ruff_cache/
+.cache/
+

@@ -1,0 +1,23 @@
+# Core
+torch>=1.10.0
+numpy>=1.20.0
+h5py>=3.0.0
+tqdm>=4.60.0
+tensorboard>=2.8.0
+
+# Scheduler
+transformers>=4.20.0
+
+# Deduplication (FAISS)
+faiss-cpu>=1.7.0
+# For GPU FAISS: faiss-gpu
+
+# Multi-GPU training (pre-training / fine-tuning)
+accelerate>=0.20.0
+
+# Config (pre-training)
+PyYAML>=5.4.0
+
+# Optional: for data scripts / visualization
+# matplotlib
+# pandas
