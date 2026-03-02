@@ -164,7 +164,6 @@ accelerate launch scripts/pretrain/pretrain_backbone_mmwave_multigpu.py ...
 
 Pre-training outputs a checkpoint (e.g. `*.pth`) to load in fine-tuning via `--model_ckpt_path`.
 
----
 
 ### 3. Fine-tuning
 
@@ -208,7 +207,6 @@ Load the pre-trained backbone and add a task head (classification MLP, pose head
 
 All fine-tuning scripts support `--subset_indices_path` / `--test_subset_indices_path` for using a subset of the dataset (e.g. few-shot).
 
----
 
 ### 4. Baselines (train from scratch)
 
@@ -217,7 +215,6 @@ No pre-training; same architecture and tasks for comparison.
 - Classification: `scripts/baselines/train_scratch_cls_wifi.py`, `train_scratch_cls_mmwave.py`
 - Pose: `scripts/baselines/train_scratch_pose_wifi.py`, `train_scratch_pose_mmwave.py`
 
----
 
 ## Project layout
 ```
